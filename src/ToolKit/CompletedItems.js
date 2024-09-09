@@ -13,7 +13,7 @@ function CompletedItems(){
     console.log("completeditem",completeditem)
     return(
         <>
-        <h1>Completed Items</h1>
+        <h1>Completed Item</h1>
         {
                 completeditem.map((item) => (
                     <>
