@@ -1,0 +1,40 @@
+.mainContainer{
+    background-color: aqua;
+    height:100%;
+    width: 100%;
+    padding: 30px;
+    
+}
+.todo-Main-heading{
+    color: black;
+    text-align: center;
+}
+.todo-card{
+    background-color: white;
+    box-shadow: 0px 4px 16px 0px;
+    height: auto;
+    width: 250px;
+    padding: 30px;
+    border-radius: 8px;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+}
+.todo-button{
+    background-color: blue;
+    border-width: 0px;
+    border-radius: 6px;
+    margin-top: 15px;
+    height: 33px;
+    width: 90px;
+    color:white;
+    font-size: 16px;
+}
+.text-card-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.each-card{
+    margin:17px;
+}
